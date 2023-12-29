@@ -20,8 +20,8 @@ function Navbar() {
                             <div className="hidden md:block">
                                 <div className="sm:flex sm:gap-4">
                                     <ul className="flex items-center gap-6 text-sm text-white">
-                                        <li className="text-base-300 font-semibold font-3xl transition hover:text-500/75 me-7" >Home</li>
-                                        <li className="text-base-300 font-semibold font-3xl transition hover:text-500/75 me-7" >Sevices</li>
+                                       <Link to='/'> <li className="text-base-300 font-semibold font-3xl transition hover:text-500/75 me-7" >Home</li></Link>
+                                        <Link to='/services'><li className="text-base-300 font-semibold font-3xl transition hover:text-500/75 me-7" >Sevices</li></Link>
                                         <li className="text-base-300 font-semibold font-3xl transition hover:text-500/75 me-7" >About Us</li>
                                         <li className="text-base-300 font-semibold font-3xl transition hover:text-500/75 " >Contact</li>
                                     </ul>
@@ -36,10 +36,10 @@ function Navbar() {
 
                                 <div tabIndex={0} className="menu menu-compact dropdown-content  p-2   absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none "   >
                                     <div className="py-1 " role="none">
-                                        <li  className="text-gray-700 block px-4 py-2 text-md" >Home</li>
-                                        <li  className="text-gray-700 block px-4 py-2 text-md" >Services</li>
-                                        <li  className="text-gray-700 block px-4 py-2 text-md" >About Us</li>
-                                        <li  className="text-gray-700 block px-4 py-2 text-md" >Contact</li>
+                                        <Link to='/'><li  className="text-gray-700 block px-4 py-2 text-md" >Home</li></Link>
+                                        <Link to='/services'><li  className="text-gray-700 block px-4 py-2 text-md" >Services</li></Link>
+                                        <Link to='/'><li  className="text-gray-700 block px-4 py-2 text-md" >About Us</li></Link>
+                                        <Link to='/'><li  className="text-gray-700 block px-4 py-2 text-md" >Contact</li></Link>
                                     </div>
                                 </div>
 

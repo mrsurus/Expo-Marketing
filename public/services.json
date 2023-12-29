@@ -1,0 +1,76 @@
+[
+    {
+      "service_id": 1,
+      "name": "Search Engine Optimization (SEO)",
+      "photo": "https://img.freepik.com/free-vector/seo-optimization-banner_33099-1690.jpg?w=996&t=st=1703829055~exp=1703829655~hmac=dfca0ab588e6362d57c7f397d179d7fa948d1a7136883466aec88e14e47a1e29",
+      "description": "SEO focuses on optimizing website content and structure to improve visibility in search engine results. Enhance your site's ranking and organic traffic through keyword research, on-page optimization, link building, and analytics insights.",
+      "rating": 4.8,
+      "duration": "3-6 months"
+    },
+    {
+      "service_id": 2,
+      "name": "Pay-Per-Click Advertising (PPC)",
+      "photo": "https://img.freepik.com/free-photo/corporate-management-strategy-solution-branding-concept_53876-167088.jpg?w=996&t=st=1703829292~exp=1703829892~hmac=4bbf9b80b8840b83b2d744679c93b738c6aea73960125d67513429bdb888816d",
+      "description": "PPC involves creating targeted ads displayed on search engines or social media platforms. Control your budget, target specific demographics, and measure performance with immediate results through clicks and conversions.",
+      "rating": 4.5,
+      "duration": "Ongoing"
+    },
+    {
+      "service_id": 3,
+      "name": "Social Media Marketing",
+      "photo": "https://img.freepik.com/free-vector/3d-social-media-icons-background_52683-28863.jpg?size=626&ext=jpg&ga=GA1.1.2002194577.1691003768&semt=ais",
+      "description": "Leverage social media platforms like Facebook, Instagram, Twitter, and LinkedIn to build brand awareness, engage audiences, and drive traffic. Create and manage campaigns, analyze metrics, and interact with customers.",
+      "rating": 4.6,
+      "duration": "Ongoing"
+    },
+    {
+      "service_id": 4,
+      "name": "Content Marketing",
+      "photo": "https://img.freepik.com/premium-photo/handwriting-content-marketing-word-notebook-wood-table_132358-3968.jpg?size=626&ext=jpg&ga=GA1.1.2002194577.1691003768&semt=ais",
+      "description": "Content marketing focuses on creating valuable, relevant content to attract and engage a specific audience. Develop compelling blog posts, videos, infographics, and more to drive brand awareness, leads, and conversions.",
+      "rating": 4.7,
+      "duration": "Flexible"
+    },
+    
+    {
+      "service_id": 5,
+      "name": "Video Marketing",
+      "photo": "https://img.freepik.com/free-vector/video-production-landing-page_52683-76086.jpg?size=626&ext=jpg&ga=GA1.1.2002194577.1691003768&semt=ais",
+      "description": "Engage audiences through compelling video content across platforms like YouTube, TikTok, and other video-sharing sites. Create tutorials, testimonials, ads, and stories to increase brand visibility and engagement.",
+      "rating": 4.5,
+      "duration": "Ongoing"
+    },
+    {
+      "service_id": 6,
+      "name": "Conversion Rate Optimization (CRO)",
+      "photo": "https://img.freepik.com/free-vector/monetization-tips-increasing-conversion-rates-strategy-attracting-followers_335657-2975.jpg?size=626&ext=jpg&ga=GA1.1.2002194577.1691003768&semt=ais",
+      "description": "CRO aims to improve website efficiency by increasing the percentage of visitors who take desired actions. Analyze user behavior, conduct A/B tests, and optimize elements like CTAs and landing pages for higher conversions.",
+      "rating": 4.4,
+      "duration": "2-4 months"
+    },
+    {
+      "service_id": 7,
+      "name": "Influencer Marketing",
+      "photo": "https://img.freepik.com/free-photo/influencer-marketing-job-concept_23-2150410555.jpg?size=626&ext=jpg&ga=GA1.1.2002194577.1691003768&semt=ais",
+      "description": "Collaborate with influencers in your niche to reach their engaged audience and promote your brand. Identify relevant influencers, negotiate partnerships, and track campaign performance for maximum impact.",
+      "rating": 4.7,
+      "duration": "Variable"
+    },
+    {
+      "service_id": 8,
+      "name": "Email Marketing",
+      "photo": "https://img.freepik.com/premium-vector/digital-marketing-landing-page_42775-431.jpg?w=1060",
+      "description": "Utilize email campaigns to reach and nurture leads, promote products/services, and maintain customer relationships. Craft personalized, targeted messages, and measure performance through open rates and click-throughs.",
+      "rating": 4.9,
+      "duration": "Ongoing"
+    },
+    {
+      "service_id": 9,
+      "name": "Analytics and Data Interpretation",
+      "photo": "https://img.freepik.com/free-photo/representation-user-experience-interface-design-computer_23-2150165983.jpg?size=626&ext=jpg&ga=GA1.1.2002194577.1691003768&semt=ais",
+      "description": "Analyze digital marketing efforts through data-driven insights. Interpret metrics, track KPIs, and optimize strategies based on performance data gathered from various sources, including websites and campaigns.",
+      "rating": 4.8,
+      "duration": "Continuous"
+    }
+  ]
+  

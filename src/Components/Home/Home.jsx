@@ -1,6 +1,17 @@
+import { useQuery } from '@tanstack/react-query'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Home() {
+
+    const { data: services = [], refetch } = useQuery({
+        queryKey: ['services'],
+        queryFn: async () => {
+            const res = await fetch('services.json')
+            const data = await res.json()
+            return data
+        }
+    })
     return (
         <div className='px-10'>
             <div className="hero borde my-10 ">
@@ -18,46 +29,21 @@ function Home() {
             <div>
                 <h1 className='border border-green-500 w-40 mx-auto rounded  text-3xl font-serif font-bold mb-3 text-green-500'>Services</h1>
                 <div className='grid gap-10 grid-cols-1 lg:grid-cols-4 bg-gray-200 rounded  p-10'>
-                    <div className="card  bg-base-100 shadow-xl">
-                        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                        <div className="card-body text-left">
-                            <h2 className="card-title">Search Engine Optimization!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Details</button>
+
+                    {
+                        services?.slice(0,4).map((service, id) =>
+                            <div key={id} className="card  bg-base-100 shadow-xl">
+                                <figure><img src={service.photo} alt="Shoes" /></figure>
+                                <div className="card-body text-left">
+                                    <h2 className="card-title">{service.name}</h2>
+                                    <p>{service.description.slice(0,50)}...</p>
+                                    <div className="card-actions justify-end">
+                                        <Link to={`/sevicedetails/${service.service_id}`}><button className="btn btn-primary">more</button></Link>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className="card  bg-base-100 shadow-xl">
-                        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">Email Marketing!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Details</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card  bg-base-100 shadow-xl">
-                        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">Facebook Marketing!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Details</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card  bg-base-100 shadow-xl">
-                        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h2 className="card-title">Lead Genaration!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Details</button>
-                            </div>
-                        </div>
-                    </div>
+                        )
+                    }
                 </div>
             </div>
             {/* one website */}
