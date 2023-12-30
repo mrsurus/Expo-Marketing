@@ -5,10 +5,10 @@ function Navbar() {
     return (
         <div className=' '>
             <header aria-label="Site Header" className="  bg-violet-600 ">
-                <div className="mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="mx-auto px-4 sm:px-6 lg:px-10">
                     <div className="flex h-16 items-center justify-between">
                         <div className="md:flex md:items-center md:gap-12">
-                            <a className="ml-8 block text-white" >
+                            <a className=" block text-white" >
                                 <span className="sr-only">Home</span>
                                 <img className='w-32 rounded' src={logo} alt="" />
 
@@ -23,7 +23,7 @@ function Navbar() {
                                        <Link to='/'> <li className="text-base-300 font-semibold font-3xl transition hover:text-500/75 me-7" >Home</li></Link>
                                         <Link to='/services'><li className="text-base-300 font-semibold font-3xl transition hover:text-500/75 me-7" >Sevices</li></Link>
                                         <Link to='/aboutus'><li className="text-base-300 font-semibold font-3xl transition hover:text-500/75 me-7" >About Us</li></Link>
-                                        <li className="text-base-300 font-semibold font-3xl transition hover:text-500/75 " >Contact</li>
+                                        <Link to='/contact'><li className="text-base-300 font-semibold font-3xl transition hover:text-500/75  " >Contact</li></Link>
                                     </ul>
                                 </div>
                             </div>
@@ -39,7 +39,7 @@ function Navbar() {
                                         <Link to='/'><li  className="text-gray-700 block px-4 py-2 text-md" >Home</li></Link>
                                         <Link to='/services'><li  className="text-gray-700 block px-4 py-2 text-md" >Services</li></Link>
                                         <Link to='/aboutus'><li  className="text-gray-700 block px-4 py-2 text-md" >About Us</li></Link>
-                                        <Link to='/'><li  className="text-gray-700 block px-4 py-2 text-md" >Contact</li></Link>
+                                        <Link to='/contact'><li  className="text-gray-700 block px-4 py-2 text-md" >Contact</li></Link>
                                     </div>
                                 </div>
 

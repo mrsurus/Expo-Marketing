@@ -2,7 +2,7 @@ import React from 'react'
 
 function Aboutus() {
   return (
-    <div className='m-16 text-left font-serif'>
+    <div className='m-10 md:m-16  text-left font-serif'>
         <div className='mb-10'>
             <h1 className='text-4xl mb-3 font-bold text-violet-600'>Welcome to Expo Marketing – Empowering Your Digital Success</h1>
             <p>At Expo Marketing, we are passionate about leveraging the power of digital marketing to transform businesses. Established with a vision to redefine the landscape of online marketing, we specialize in providing cutting-edge strategies and solutions tailored to meet the unique needs of our clients.</p>

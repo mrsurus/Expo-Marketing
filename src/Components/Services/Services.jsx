@@ -16,7 +16,7 @@ function Services() {
     })
   
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mx-48 my-20'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mx-5 lg:mx-48 my-20'>
             {
                 services.map((service, id) => <ServiceCard key={id} service={service}>
 

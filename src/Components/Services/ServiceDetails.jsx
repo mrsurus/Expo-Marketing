@@ -31,7 +31,7 @@ function ServiceDetails() {
 
     return (
         <div>
-            <div className='md:flex  mt-10 text-left '>
+            <div className='md:flex  mt-10 text-left mx-5 md:mx-10'>
                 <div className='md:w-3/5'>
                     <img className='w-full' src={services.photo} alt="" />
                 </div>
