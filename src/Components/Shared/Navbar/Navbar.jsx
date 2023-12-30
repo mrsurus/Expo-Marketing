@@ -22,7 +22,7 @@ function Navbar() {
                                     <ul className="flex items-center gap-6 text-sm text-white">
                                        <Link to='/'> <li className="text-base-300 font-semibold font-3xl transition hover:text-500/75 me-7" >Home</li></Link>
                                         <Link to='/services'><li className="text-base-300 font-semibold font-3xl transition hover:text-500/75 me-7" >Sevices</li></Link>
-                                        <li className="text-base-300 font-semibold font-3xl transition hover:text-500/75 me-7" >About Us</li>
+                                        <Link to='/aboutus'><li className="text-base-300 font-semibold font-3xl transition hover:text-500/75 me-7" >About Us</li></Link>
                                         <li className="text-base-300 font-semibold font-3xl transition hover:text-500/75 " >Contact</li>
                                     </ul>
                                 </div>
@@ -38,7 +38,7 @@ function Navbar() {
                                     <div className="py-1 " role="none">
                                         <Link to='/'><li  className="text-gray-700 block px-4 py-2 text-md" >Home</li></Link>
                                         <Link to='/services'><li  className="text-gray-700 block px-4 py-2 text-md" >Services</li></Link>
-                                        <Link to='/'><li  className="text-gray-700 block px-4 py-2 text-md" >About Us</li></Link>
+                                        <Link to='/aboutus'><li  className="text-gray-700 block px-4 py-2 text-md" >About Us</li></Link>
                                         <Link to='/'><li  className="text-gray-700 block px-4 py-2 text-md" >Contact</li></Link>
                                     </div>
                                 </div>
