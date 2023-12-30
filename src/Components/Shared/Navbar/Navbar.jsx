@@ -1,7 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import logo from '../../../assets/Pics/logo-for-expo.png'
 function Navbar() {
+   
     return (
         <div className=' '>
             <header aria-label="Site Header" className="  bg-violet-600 ">
